@@ -1,0 +1,197 @@
+@media screen and (min-width : 1250px) {
+    .grid{
+        background-color: #fff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+    }
+    
+    .grid .mx-w{
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .grid .df{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        width: 32.33%;
+        margin: 6px;
+        background-color: #fff;
+      
+        border-radius: 20px;
+    }
+    .grid .tc{
+        text-align: center;
+    }
+    .grid .btns button{
+        display: inline;
+    }
+    .grid .grid-item .imgs{
+       width: 45%;
+      margin: 10px;
+       border: 1px solid #fff;
+       background-color: #fff;
+       box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+       border-radius: 10px;
+       position: relative;
+       bottom: 10px;
+      
+    }
+    
+    .grid .grid-item img{
+       width: 99%;
+        height: 15rem;
+        position: relative;
+       border-radius: 3px;
+    }
+    
+    .grid .grid-item p{
+        font-size: 13px;
+        font-weight: 600;
+        position: relative;
+        top: 11px;
+    }
+    .grid .grid-item h3{
+        position: relative;
+        left: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+        color: #231bbb;
+    }
+    
+    .grid h4{
+        font-size: 16px;
+        text-align: center;
+        color: rgb(14, 154, 63);
+    }
+    
+}
+@media screen and (min-width : 576px) and (max-width :1250px) {
+    .grid{
+        background-color: #fff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    }
+    .grid .mx-w{
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .grid .dfs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        width: 100%;
+        margin: 6px;
+        background-color: rgb(233, 241, 244);
+        border-radius: 10px;
+    }
+    .grid .tc{
+        text-align: center;
+    }
+    .grid .grid-item .imgs{
+        width: 40.33%;
+         margin: 11px 5px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 10px;
+        position: relative;
+        bottom: 10px;
+        height: 20rem;
+        text-align: center;
+     }
+     .grid .grid-item img{
+        width: 15rem;
+         height: 13rem;
+        padding-top: 10px;
+     }
+     .grid .grid-item p{
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+        top: 11px;
+    }
+    .grid .grid-item h3{
+        position: relative;
+        left: 40px;
+        
+    }
+    
+    .grid h4{
+        text-align: center;
+        color: rgb(14, 154, 63);
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 576px) {
+    .grid{
+        background-color: #fff;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+    }
+    .grid .mx-w{
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .grid .dfs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grid-item{
+        width: 95%;
+        margin: 6px;
+        background-color: rgb(233, 241, 244);
+        border-radius: 10px;
+    }
+    .grid .tc{
+        text-align: center;
+    }
+    .grid .grid-item .imgs{
+        width: 46.33%;
+         margin: 11px 5px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 10px;
+        position: relative;
+        bottom: 10px;
+        height: 16rem;
+        text-align: center;
+     }
+     .grid .grid-item img{
+        width: 99%;
+         height: 12rem;
+        padding-top: 5px;
+        border-radius: 10px;
+     }
+     .grid .grid-item p{
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        top: 11px;
+    }
+    .grid .grid-item h3{
+        position: relative;
+        left: 30px;
+        top: 5px;
+        font-size: 16px;
+        color: #231bbb;
+      
+    }
+    
+    .grid h4{
+        text-align: center;
+        color: rgb(14, 154, 63);
+        font-size: 15px;
+        position: relative;
+        bottom: 1px;
+    }
+}

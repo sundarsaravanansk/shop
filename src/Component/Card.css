@@ -1,0 +1,211 @@
+
+
+@media screen and (min-width : 1000px){
+    .product .mx-w{
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .product .df{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .product img{
+        width: 100%;
+        height: 15rem;
+      
+    }
+    .product .pimg{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .product .card{
+        width: 20rem;
+        margin: 15px;
+    }
+    .product p{
+        color: #000;
+        font-size: 15px;
+    }
+    .product h5{
+        color: #000;
+    }
+    .product .off{
+        font-size: 16px;
+        color: green;
+        font-weight: 700;
+       
+     }
+     .product span{
+        font-size: 17px;
+       
+      
+    }
+    .product del{
+        margin-left: 20px;
+        font-size: 17px;
+        
+    }
+    .product .addbtn{
+        text-align: left;
+    }
+    
+}
+@media screen and (min-width : 576px) and (max-width : 1000px){
+    .product .mx-w{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .product img{
+        width: 100%;
+        height: 8rem;
+      
+    }
+    .product p{
+        color: #000;
+        font-size: 49%;
+    }
+    .product h5{
+        color: #000;
+        font-size: 13px;
+        position: relative;
+        bottom: 10px;
+        font-weight: 700;
+       
+    }
+    .product del{
+        font-size: 11px;
+        color: rgb(38, 37, 37);
+        font-size: 900;
+        position: relative;
+        bottom: 10px;
+        margin-left: 10px;
+    }
+    .product .del{
+        display: inline;
+    }
+    .product .df{
+        display: flex;
+    }
+    .product span{
+        position: relative;
+        bottom: 10px;
+        font-size: 11px;
+    }
+    .product .card-item{
+        width: 50%;
+        border-radius: 1px;
+        margin: 0%;
+    }
+    .product .df{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .product .addbtn{
+        text-align: center;
+    }
+ 
+    .product Button{
+        font-size: 60%;
+        padding: 7px 15px;
+        margin-top: -20px;
+    }
+    .product .off{
+        font-size: 12px;
+        color: green;
+        font-weight: 600;
+       
+       
+    }
+    .product .addbtn{
+        text-align: center;
+    }
+}
+@media screen and (max-width : 576px) {
+    .product img{
+        width: 100%;
+        height: 8rem;
+      
+    }
+    .product p{
+        color: #000;
+        font-size: 49%;
+    }
+    .product h5{
+        color: #000;
+        font-size: 13px;
+        position: relative;
+        bottom: 10px;
+        font-weight: 700;
+       
+    }
+    .product del{
+        font-size: 11px;
+        color: rgb(38, 37, 37);
+        font-size: 900;
+        position: relative;
+        bottom: 10px;
+        margin-left: 10px;
+    }
+    .product .del{
+        display: inline;
+    }
+    .product .df{
+        display: flex;
+    }
+    .product span{
+        position: relative;
+        bottom: 10px;
+        font-size: 11px;
+    }
+    .product .card-item{
+        width: 50%;
+        border-radius: 1px;
+        margin: 0%;
+    }
+    .product .df{
+        display: flex;
+       flex-wrap: wrap;
+    }
+    .product .addbtn{
+        text-align: center;
+    }
+ 
+    .product Button{
+        font-size: 60%;
+        padding: 7px 15px;
+        margin-top: -20px;
+    }
+    .product .off{
+        font-size: 12px;
+        color: green;
+        font-weight: 600;
+       
+       
+    }
+    .span{
+        color: green;
+        font-size: 13px!important;
+        
+       
+    }
+    
+    .inbtn button{
+     
+        cursor: pointer;
+       border: 1px solid #fff;
+       background-color: #ffffff;
+        font-size: 13px;
+        position: relative;
+        bottom: .5rem;
+        
+    }
+
+}
