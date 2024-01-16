@@ -12,7 +12,7 @@ const CardList = (props) => {
       <Card.Img variant="top" src={props.cardData.img} />
       </div>
       <Card.Body>
-        <Card.Title><p>{props.cardData.Name}</p></Card.Title>
+        <Card.Title><p className='fn'>{props.cardData.Name}</p></Card.Title>
         <Card.Text>
           <div className='df'>
           <div>

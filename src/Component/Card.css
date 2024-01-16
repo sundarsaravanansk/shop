@@ -54,6 +54,23 @@
     .product .addbtn{
         text-align: left;
     }
+    .span{
+        color: green;
+        font-size: 13px!important;
+        
+       
+    }
+    
+    .inbtn button{
+     
+        cursor: pointer;
+       border: 1px solid #fff;
+       background-color: #ffffff;
+        font-size: 13px;
+        position: relative;
+        bottom: .5rem;
+        
+    }
     
 }
 @media screen and (min-width : 576px) and (max-width : 1000px){
@@ -126,6 +143,23 @@
     }
     .product .addbtn{
         text-align: center;
+    }
+    .span{
+        color: green;
+        font-size: 13px!important;
+        
+       
+    }
+    
+    .inbtn button{
+     
+        cursor: pointer;
+       border: 1px solid #fff;
+       background-color: #ffffff;
+        font-size: 13px;
+        position: relative;
+        bottom: .5rem;
+        
     }
 }
 @media screen and (max-width : 576px) {
@@ -206,6 +240,10 @@
         position: relative;
         bottom: .5rem;
         
+    }
+
+    .fn{
+        font-size: 15px!important;
     }
 
 }
